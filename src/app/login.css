@@ -1,0 +1,28 @@
+.LoginForm {
+    display: flex;
+    height: 60vh;
+    width: 60vw;
+    align-items: center;
+    background: #f3f3f3;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.LoginForm > input {
+    width: 50%;
+    height: 26px;
+    border: 1px, black;
+    font-size: 14px;
+}
+
+.LoginForm > input:focus {
+    outline: none;
+}
+
+.LoginForm > label {
+    width: 50%;
+}
+

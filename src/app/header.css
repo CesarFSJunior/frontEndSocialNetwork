@@ -1,0 +1,29 @@
+header {
+    display:  flex;
+    background: #00004d;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
+    color: #fefefe;
+    height: 86px;
+}
+
+header > h1 > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header > nav > ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 26px;
+    align-items: center;
+    list-style: none;
+}
+
+header > nav >ul > li > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
